@@ -13,7 +13,7 @@ await new Promise((resolve) => {
     });
 });
 ``` 
-<br> <br>
+<br>
 pData همون ورودی تکست ماست که از textarea گرفتیم. تا اینجاش راحته. مشکلش اینجاست که از زبان فارسی پشتیبانی نمیکنه و برای حل این مشکل از pdfMake استفاده میکنیم و فونت وزیر رو دانلود میکنیم. اسکریپت های استفاده شده برای pdfMake گزینه های زیر هستن : <br>
 1. `<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/pdfmake.min.js"></script>` <br>
 2. `<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/vfs_fonts.js"></script>` <br> <br>
