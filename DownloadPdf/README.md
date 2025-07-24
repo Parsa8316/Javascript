@@ -18,6 +18,7 @@ pData همون ورودی تکست ماست که از textarea گرفتیم. ت�
 1. `<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/pdfmake.min.js"></script>` <br>
 2. `<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/vfs_fonts.js"></script>` <br> <br>
   بعد این فونت فارسی برای جاوا اسکریپت شناخته میشه ولی هنوز یه مشکل مونده. اونم این که کلمات رو از آخر به اول چاپ میکنه. یعنی اگه بنویسیم : "سلام خوبی ؟" چاپ میکنه : "؟ خوبی سلام". برای حل این مشکلم باید از حلقه استفاده کنیم : <br> 
+
 ```
 var data = document.getElementById("TxtText").value.split(" ");
 var pData = "";
