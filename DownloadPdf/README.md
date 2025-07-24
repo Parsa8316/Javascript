@@ -25,5 +25,5 @@ for (var i = data.length - 1; i >= 0; i--) {
     pData += data[i] + " ";
 }
 ```
-<br> <br> 
+<br>
     حالا تکست ما آماده چاپه.
